@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DT-CDVS", "DT-CDVS\DT-CDVS.vcxproj", "{29380755-86C2-45A7-9141-5CAC07271B69}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DT-Extract", "projects\DT-Extract\DT-Extract.vcxproj", "{F6BAA793-66E3-4019-AFC0-C0100BA1E58A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DT-StaticLib", "projects\DT-StaticLib\DT-StaticLib.vcxproj", "{C4C771A1-584B-4F9E-9EC1-782A04A24868}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +11,14 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{29380755-86C2-45A7-9141-5CAC07271B69}.Debug|Win32.ActiveCfg = Debug|Win32
-		{29380755-86C2-45A7-9141-5CAC07271B69}.Debug|Win32.Build.0 = Debug|Win32
-		{29380755-86C2-45A7-9141-5CAC07271B69}.Release|Win32.ActiveCfg = Release|Win32
-		{29380755-86C2-45A7-9141-5CAC07271B69}.Release|Win32.Build.0 = Release|Win32
+		{F6BAA793-66E3-4019-AFC0-C0100BA1E58A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6BAA793-66E3-4019-AFC0-C0100BA1E58A}.Debug|Win32.Build.0 = Debug|Win32
+		{F6BAA793-66E3-4019-AFC0-C0100BA1E58A}.Release|Win32.ActiveCfg = Release|Win32
+		{F6BAA793-66E3-4019-AFC0-C0100BA1E58A}.Release|Win32.Build.0 = Release|Win32
+		{C4C771A1-584B-4F9E-9EC1-782A04A24868}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4C771A1-584B-4F9E-9EC1-782A04A24868}.Debug|Win32.Build.0 = Debug|Win32
+		{C4C771A1-584B-4F9E-9EC1-782A04A24868}.Release|Win32.ActiveCfg = Release|Win32
+		{C4C771A1-584B-4F9E-9EC1-782A04A24868}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
