@@ -1,0 +1,21 @@
+﻿生成启动时间为 2016/7/28 19:52:31。
+     1>项目“D:\repository\DT-CDVS\projects\DT-StaticLib\DT-StaticLib.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\repository\DT-CDVS\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\DT-StaticLib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\staticLib\BitInputStream.cpp ..\..\src\staticLib\BitOutputStream.cpp ..\..\src\staticLib\Feature.cpp ..\..\src\staticLib\FeatureList.cpp ..\..\src\staticLib\SiftDetector.cpp
+         SiftDetector.cpp
+     1>d:\repository\dt-cdvs\src\staticlib\siftdetector.h(4): fatal error C1083: 无法打开包括文件:“fftw3.h”: No such file or directory
+         FeatureList.cpp
+     1>d:\repository\dt-cdvs\src\staticlib\featurelist.h(4): fatal error C1083: 无法打开包括文件:“Parameters.h”: No such file or directory
+         Feature.cpp
+         BitOutputStream.cpp
+         BitInputStream.cpp
+         正在生成代码...
+     1>已完成生成项目“D:\repository\DT-CDVS\projects\DT-StaticLib\DT-StaticLib.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.00

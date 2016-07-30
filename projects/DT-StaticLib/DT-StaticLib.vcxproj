@@ -60,6 +60,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\src\staticLib\BitInputStream.h" />
+    <ClInclude Include="..\..\src\staticLib\BitOutputStream.h" />
+    <ClInclude Include="..\..\src\staticLib\Defines.h" />
+    <ClInclude Include="..\..\src\staticLib\Feature.h" />
+    <ClInclude Include="..\..\src\staticLib\FeatureList.h" />
+    <ClInclude Include="..\..\src\staticLib\SiftDetector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\staticLib\BitInputStream.cpp" />
+    <ClCompile Include="..\..\src\staticLib\BitOutputStream.cpp" />
+    <ClCompile Include="..\..\src\staticLib\Feature.cpp" />
+    <ClCompile Include="..\..\src\staticLib\FeatureList.cpp" />
+    <ClCompile Include="..\..\src\staticLib\SiftDetector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
